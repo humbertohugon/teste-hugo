@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/flamengoicon.ico" type="image/x-icon">
+    <title>Teste Hugo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Site do Hugola</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="musica.html">Músicas</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+            </ul>
+    </header>
+    <main>
+    <article>
+        <h2>Teste AAAA</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit cupiditate a, maxime nisi consectetur dolores quasi recusandae sit pariatur alias repellat quae dicta, blanditiis delectus tempore similique odit laudantium labore!</p>
+    </article>
+    
+    <script>
+        function clickMenu() {
+                if (itens.style.display == 'block') {
+                    itens.style.display = 'none'
+                } else {
+                    itens.style.display = 'block'
+                }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
