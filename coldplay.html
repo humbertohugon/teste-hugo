@@ -14,74 +14,39 @@
     <header>
         <h1>Site do Hugola</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <menu id="itens">
+        <menu class="itens">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="musica.html">Músicas</a></li>
-                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="index.html"></i>Home</a></li>
+
+                <li class="musicas">
+                    <a href="">Músicas</a>
+                       
+                    <div class="drop-musicas">
+                        <a href="rhcp.html">RHCP</a>
+                        <a href="coldplay.html">Coldplay</a>
+                    </div>
+                </li>
+                <li class="jogos">
+                    <a href="">Jogos</a>
+
+                    <div class="drop-jogos">
+                        <a href="navegador.html">Navegador</a>
+                        <a href="steam.html">Steam</a>
+                        <a href="ps2.html">PS2</a>
+                        <a href="nintendo.html">Nintendo</a>
+                    </div>
+                </li>
             </ul>
     </header>
     <main>
         <article>
+            <br>
             <table>
-                <caption>Minhas Músicas Favoritas RHCP & Coldplay</caption>
+                <caption>Músicas Favoritas Coldplay</caption>
                 <thead>
                     <tr>
                         <th>N°</th>
-                        <th>Red Hot Chili Peppers</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="num">1</td>
-                        <td>By the Way &#x1F947</td>
-                    </tr>
-                    <tr>
-                        <td class="num">2</td>
-                        <td>Californication &#x1F948</td>
-                    </tr>
-                    <tr>
-                        <td class="num">3</td>
-                        <td>Midnight &#x1F949</td>
-                    </tr>
-                    <tr>
-                        <td class="num">4</td>
-                        <td>Can't Stop</td>
-                    </tr>
-                    <tr>
-                        <td class="num">5</td>
-                        <td>Breaking the Girl</td>
-                    </tr>
-                    <tr>
-                        <td class="num">6</td>
-                        <td>Higher Ground</td>
-                    </tr>
-                    <tr>
-                        <td class="num">7</td>
-                        <td>Dani California</td>
-                    </tr>
-                    <tr>
-                        <td class="num">8</td>
-                        <td>Under the Bridge</td>
-                    </tr>
-                    <tr>
-                        <td class="num">9</td>
-                        <td>Snow</td>
-                    </tr>
-                    <tr>
-                        <td class="num">10</td>
-                        <td>Aeroplane</td>
-                    </tr>
-                </tbody>
-            </table>
-            <br>
-            <img src="imagens/rhcp.jpg" alt="Red Hot Chili Peppers">
-            <br>
-            <table>
-                <thead>
-                    <tr>
-                        <th>N°</th>
-                        <th>Coldplay</th>
+                        <th>Música</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -128,7 +93,6 @@
                 </tbody>
             </table>
             <br>
-            <img src="imagens/coldplay.jpg" alt="Coldplay">
         </article>
     <script>
         function clickMenu() {
@@ -147,5 +111,6 @@
             }
         }
     </script>
+    
 </body>
 </html>

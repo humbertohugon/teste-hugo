@@ -125,3 +125,32 @@ img {
     height: 200px;
     margin: auto;
 }
+
+/* TESTE */
+
+
+/*.musicas {
+
+}*/
+
+.drop-musicas, .drop-jogos {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.drop-musicas > a, .drop-jogos > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border: 1px solid rgb(14, 14, 14);
+}
+
+.musicas:hover .drop-musicas, .jogos:hover .drop-jogos {
+    display: block;
+    background-color: gray;
+}
+
