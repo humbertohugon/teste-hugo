@@ -135,8 +135,10 @@ img#redes-sociais:hover {
 
 div.redes {
     font-size: 2em;
-    
+    display: flex;
+    align-items: center;
 }
+
 /* TESTE */
 
 
