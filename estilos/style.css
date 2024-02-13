@@ -133,7 +133,12 @@ img#redes-sociais:hover {
     transition: transform 0.25s;
 }
 
+div.redes {
+    font-size: 2em;
+    
+}
 /* TESTE */
+
 
 
 /*.musicas {
